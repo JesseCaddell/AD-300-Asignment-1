@@ -9,3 +9,5 @@ public class Main {
         box.volume();
     }
 }
+
+//probably should change the name of main like professor asked?
