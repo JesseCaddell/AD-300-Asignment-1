@@ -12,9 +12,10 @@ public class Box {
         System.out.println("Box materialized... ");
     }
 
-    public void volume(){
+    public double volume(){
         System.out.println(width * height * depth);
 
+        return width * height * depth;
     }
 
     public ArrayList<String> inventory = new ArrayList<>();
