@@ -5,8 +5,10 @@ public class Main {
 
         Box box = new Box(10, 12, 15);
         box.addItem("Lint");
-        box.addItem("Raygun");
-        box.addItem("Coffee Mug");
+        box.removeItem("Lint");
+        box.removeItem("Raygun");
+//        box.addItem("Raygun");
+//        box.addItem("Coffee Mug");
         box.printItems();
         box.volume();
     }
